@@ -97,7 +97,7 @@ export default function Index() {
             {/* Map key */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0.75rem" }}>
               {[
-                { color: "#8b2500", label: "Конференции", desc: "Думбартон-Окс, Ялта, Сан-Франциско, Лондон" },
+                { color: "#8b2500", label: "Конференции", desc: "Тегеран, Думбартон-Окс, Ялта, Сан-Франциско" },
                 { color: "#1a3a6b", label: "Штаб-квартира", desc: "Нью-Йорк — главный офис ООН с 1952 г." },
                 { color: "#2d4a22", label: "Операции ООН", desc: "Югославия (1992), Сирия (2012)" },
               ].map((item) => (
